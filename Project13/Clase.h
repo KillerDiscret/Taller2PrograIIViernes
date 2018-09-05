@@ -27,8 +27,8 @@ void Carro::SetVariables(char*COLOR, char*DUEÑO, int*PLACA, double*PESO)
 {
 	color = COLOR;
 	dueño = DUEÑO;
-	*placa = *PLACA;
-	*peso = *PESO;
+	placa = PLACA;
+	peso = PESO;
 }
 char *Carro::getColor()
 {
